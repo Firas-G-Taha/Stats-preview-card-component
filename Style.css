@@ -19,7 +19,7 @@
         --SlightlyTransparentWhite2 : hsla(0, 0%, 100%, 0.6);
 
 }
-.states h4{
+.states h2{
     color: var(--SlightlyTransparentWhite2);
 }
 .main-text p{
@@ -47,10 +47,10 @@
     src: url(Fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf );
     font-weight: 200;
 }
-.main-container p , .main-container h4{
+.main-container p , .main-container h2{
     font-size: 16px;
 }
-h4{
+h2{
     font-family: 'lexend Deca Regular';
 }
 h1{
@@ -115,6 +115,7 @@ body{
 .states{
     align-self: center;
     width: 100%;
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
